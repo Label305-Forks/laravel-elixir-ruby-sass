@@ -7,7 +7,7 @@ var _ = require('underscore');
 
 var inProduction = elixir.config.production;
 
-elixir.extend('rubySass', function(src, output, options) {
+elixir.extend('rubySassElixir', function(src, output, options) {
 
     var pluginName = 'rubySass';
     var search = '**/*.+(sass|scss)';
